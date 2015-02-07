@@ -19,6 +19,7 @@
 		C5124E951A860B8200CE5A64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5124E7D1A860B8200CE5A64 /* UIKit.framework */; };
 		C5124E9D1A860B8200CE5A64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5124E9B1A860B8200CE5A64 /* InfoPlist.strings */; };
 		C5124E9F1A860B8200CE5A64 /* ___UIPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5124E9E1A860B8200CE5A64 /* ___UIPickerViewTests.m */; };
+		C5AFD23F1A860BA500A916EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AFD23E1A860BA500A916EF /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		C5124E9A1A860B8200CE5A64 /* 自定义UIPickerViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "自定义UIPickerViewTests-Info.plist"; sourceTree = "<group>"; };
 		C5124E9C1A860B8200CE5A64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C5124E9E1A860B8200CE5A64 /* ___UIPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UIPickerViewTests.m"; sourceTree = "<group>"; };
+		C5AFD23D1A860BA500A916EF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5AFD23E1A860BA500A916EF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 		C5124E6D1A860B8200CE5A64 = {
 			isa = PBXGroup;
 			children = (
+				C5AFD23D1A860BA500A916EF /* ViewController.h */,
+				C5AFD23E1A860BA500A916EF /* ViewController.m */,
 				C5124E7F1A860B8200CE5A64 /* 自定义UIPickerView */,
 				C5124E981A860B8200CE5A64 /* 自定义UIPickerViewTests */,
 				C5124E781A860B8200CE5A64 /* Frameworks */,
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5AFD23F1A860BA500A916EF /* ViewController.m in Sources */,
 				C5124E8A1A860B8200CE5A64 /* AppDelegate.m in Sources */,
 				C5124E861A860B8200CE5A64 /* main.m in Sources */,
 			);
@@ -437,6 +443,7 @@
 				C5124EA41A860B8200CE5A64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5124EA51A860B8200CE5A64 /* Build configuration list for PBXNativeTarget "自定义UIPickerViewTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +452,7 @@
 				C5124EA71A860B8200CE5A64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
